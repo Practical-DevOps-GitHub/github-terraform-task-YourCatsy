@@ -16,7 +16,7 @@ on:
   push:
     branches: [ main, develop ]
     paths-ignore:
-      - '.github/CODEOWNERS'
+      - 'CODEOWNERS'
   pull_request:
     branches: [ main, develop ]
   schedule:
