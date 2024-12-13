@@ -15,8 +15,6 @@ env:
 on:
   push:
     branches: [ main, develop ]
-    paths-ignore:
-      - '.github/CODEOWNERS'
   pull_request:
     branches: [ main, develop ]
   schedule:
